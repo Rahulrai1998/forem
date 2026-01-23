@@ -11,7 +11,7 @@
     "esModuleInterop": true,
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "esnext",
+    "module": "nodenext",
     "target": "esnext",
     "types": [],
     // For nodejs:
@@ -43,6 +43,7 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
+    "moduleResolution": "nodenext",
     "skipLibCheck": true,
   },
   "exclude": ["node_modules"],

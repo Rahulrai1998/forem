@@ -1,0 +1,29 @@
+{
+  "name": "forem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "dev2": "nodemon --exec ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "start2": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@mikro-orm/cli": "^6.6.5",
+    "@mikro-orm/core": "^6.6.5",
+    "@mikro-orm/migrations": "^6.6.5",
+    "@mikro-orm/postgresql": "^6.6.5",
+    "pg": "^8.17.2"
+  }
+}

@@ -17,33 +17,32 @@
         },
         "created_at": {
           "name": "created_at",
-          "type": "timestamptz",
+          "type": "date",
           "unsigned": false,
           "autoincrement": false,
           "primary": false,
           "nullable": false,
-          "length": 6,
-          "mappedType": "datetime"
+          "length": 0,
+          "mappedType": "date"
         },
         "updated_at": {
           "name": "updated_at",
-          "type": "timestamptz",
+          "type": "date",
           "unsigned": false,
           "autoincrement": false,
           "primary": false,
           "nullable": false,
-          "length": 6,
-          "mappedType": "datetime"
+          "length": 0,
+          "mappedType": "date"
         },
         "title": {
           "name": "title",
-          "type": "varchar(255)",
+          "type": "text",
           "unsigned": false,
           "autoincrement": false,
           "primary": false,
           "nullable": false,
-          "length": 255,
-          "mappedType": "string"
+          "mappedType": "text"
         }
       },
       "name": "post",

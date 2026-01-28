@@ -17,6 +17,7 @@ export default defineConfig({
     glob: "!(*.d).{js,ts,cjs}",
     fileName: (timestamp, name) => `${timestamp}_${name || "migration"}`,
   },
+  allowGlobalContext: true, //not ideal for prod, use fork() instead
   entities: [Post], //corresponds to db-tables.
   dbName: "forem",
   driver: PostgreSqlDriver,
